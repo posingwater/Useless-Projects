@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5ea86, #f37853); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgb(241, 36, 43);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center text */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #fbfaed; /* Darker text color */
+    font-size: 2.5em; /* Larger font size */
+}
+
+select, button {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 18px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+select {
+    background-color: #ffcc00; /* Bright select background */
+    color: #4A4A4A; /* Text color */
+}
+
+select:hover {
+    background-color: #ffbb00; /* Darker on hover */
+}
+
+button {
+    background-color: #010405; /* Green button */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+    background-color: #495449; /* Darker green on hover */
+}
+
+button:active {
+    transform: scale(0.98); /* Slight scale effect on click */
+}
