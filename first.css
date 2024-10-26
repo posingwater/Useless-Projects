@@ -1,55 +1,47 @@
+/* styles.css */
+
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f5ea86, #f37853); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Soft blue gradient */
+    color: #444; /* Dark gray for contrast */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    text-align: center;
 }
 
 .container {
-    background: rgb(241, 36, 43);
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    text-align: center; /* Center text */
+    background: rgba(255, 255, 255, 0.95); /* Almost white for a light feel */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 h1 {
+    font-size: 2.5em;
     margin-bottom: 20px;
-    color: #fbfaed; /* Darker text color */
-    font-size: 2.5em; /* Larger font size */
-}
-
-select, button {
-    margin: 10px 0;
-    padding: 12px;
-    font-size: 18px;
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    transition: all 0.3s ease; /* Smooth transition */
-}
-
-select {
-    background-color: #ffcc00; /* Bright select background */
-    color: #4A4A4A; /* Text color */
-}
-
-select:hover {
-    background-color: #ffbb00; /* Darker on hover */
+    color: #2c3e50; /* Soft navy for headings */
 }
 
 button {
-    background-color: #010405; /* Green button */
-    color: white; /* White text */
-    cursor: pointer; /* Pointer cursor */
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #f39c12; /* Light orange */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-    background-color: #495449; /* Darker green on hover */
+    background-color: #e67e22; /* Darker orange on hover */
+    transform: scale(1.05);
 }
 
 button:active {
-    transform: scale(0.98); /* Slight scale effect on click */
+    transform: scale(0.95);
 }
