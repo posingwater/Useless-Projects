@@ -28,7 +28,8 @@ For Software:
 - JavaScript
 
 ### Implementation
-For Software:
+For Software: Use the lastest version of Microsoft Edge
+
 # Installation
 Download the files off of github, and save it on the desktop
 
