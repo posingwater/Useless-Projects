@@ -20,7 +20,8 @@ Our project consists of 2 "mini" projects. The first one is a simple To-Do list,
 
 ### The Solution (that nobody asked for)
 - So we made sure to load up the app with a whole lot of the annoying features. In case, life hasn't been keeping you on your toes, we sure will 😉
-- Thus, we brought out our Mood Analyzer :tm: (Patent pending). It brings out the revolutionary idea of completely randomizing your song choices according you your mood(not)!
+- The "Mood Analyzer" is an innovative website that plays songs randomly based on your current emotions, but with a twist!
+The song that plays will be unrelated to the emotion and song name displayed, adding an exciting layer of surprise.
 
 ## Technical Details
 ### Technologies/Components Used
